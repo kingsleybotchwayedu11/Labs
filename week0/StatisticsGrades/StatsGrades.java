@@ -5,7 +5,7 @@ import java.util.Scanner;
  * It computes the maximum, minimum, and average grades, and provides a visual representation
  * of how many students fall into specific grade bands.
  */
-public class StudentStatistics {
+public class StatsGrades {
     // Array to store student grades
     private double[] grades;
 

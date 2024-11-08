@@ -5,7 +5,18 @@ import java.util.Scanner;
  * It computes the maximum, minimum, and average grades, and provides a visual representation
  * of how many students fall into specific grade bands.
  */
-public class StatsGrades {
+
+//Launcher
+//Test Calss
+public class StatsGradesLauncher {
+
+    public static void main(String[] args) {
+        //instantiate student statistics object
+        StudentGradeStats programingJavaAmlitecNsp2024 = new StudentGradeStats();
+        programingJavaAmlitecNsp2024.startApplication();
+    }
+}
+class StudentGradeStats {
     // Array to store student grades
     private double[] grades;
 
@@ -217,4 +228,7 @@ public class StatsGrades {
         // Display the summary of computed statistics
         this.displaySummary();
     }
+
 }
+
+

@@ -7,7 +7,18 @@ import java.util.Scanner;
  * This class allows the user to input two matrices, check if they are compatible for multiplication,
  * perform the multiplication, and output the resulting matrix.
  */
-class MatrixUtils {
+
+//launcher
+public class MatrixMultiplication {
+
+        //instantiate matrix utils
+        public static void main(String[] args) {
+            MatrixMatriplicationUtils matrixProduct = new MatrixMatriplicationUtils();
+            matrixProduct.startOperation(); 
+        } 
+}
+
+class MatrixMatriplicationUtils {
     // Matrix A dimensions
     private int matrixARow;
     private int matrixAColumn;
